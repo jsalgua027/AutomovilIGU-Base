@@ -1,0 +1,16 @@
+automovil_igu\Principal$1.class
+automovil_persistencia\exceptions\NonexistentEntityException.class
+automovil_igu\Principal.class
+automovil_persistencia\ControladoraPersistencia.class
+automivil\Automovil.class
+automovil_logica\Controladora.class
+automovil_persistencia\exceptions\IllegalOrphanException.class
+automovil_igu\Principal$3.class
+automovil_persistencia\AutomovilJpaController.class
+automovil_persistencia\exceptions\PreexistingEntityException.class
+automovil_logica\Automovil_.class
+automovil_igu\AltaAutomovil$2.class
+automovil_igu\AltaAutomovil$1.class
+automovil_igu\Principal$2.class
+automovil_logica\Automovil.class
+automovil_igu\AltaAutomovil.class
