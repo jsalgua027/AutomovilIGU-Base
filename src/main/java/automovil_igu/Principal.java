@@ -120,7 +120,8 @@ public class Principal extends javax.swing.JFrame {
     }//GEN-LAST:event_btnAltaAutoActionPerformed
 
     private void btnSalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSalirActionPerformed
-        // TODO add your handling code here:
+      // para cerrar el programa
+        System.exit(0);
     }//GEN-LAST:event_btnSalirActionPerformed
 
     private void btnConsultaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnConsultaActionPerformed
