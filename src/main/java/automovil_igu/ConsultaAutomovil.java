@@ -160,7 +160,7 @@ public class ConsultaAutomovil extends javax.swing.JFrame {
                    modif.setLocationRelativeTo(null);
                    // una vez que tengo la ventana modificar abierta cierro la ventana consulta
                    this.dispose();
-                mostraMensaje("Auto Modificado correctamente", "Info", "Modificado Existoso");
+             mostraMensaje("Auto Modificado correctamente", "Info", "Modificado Existoso");
                 // una vez que borro carga la tabla para que se actualice
                 cargarTabla();
             } else {
@@ -170,7 +170,7 @@ public class ConsultaAutomovil extends javax.swing.JFrame {
 
             mostraMensaje("La tabla esta vacia", "Error", "Error al modificarr");
         }
-
+   
 
     }//GEN-LAST:event_btnModificarActionPerformed
 
