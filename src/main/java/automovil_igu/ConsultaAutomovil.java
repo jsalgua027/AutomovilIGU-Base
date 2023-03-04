@@ -188,9 +188,10 @@ public class ConsultaAutomovil extends javax.swing.JFrame {
                 int idAuto = Integer.parseInt(String.valueOf(TablaAutos.getValueAt(TablaAutos.getSelectedRow(), 0)));
 
                 control.borrarAuto(idAuto);
-                mostraMensaje("Auto borrado correctamente", "Info", "Borrado Existoso");
+            
                 // una vez que borro carga la tabla para que se actualice
                 cargarTabla();
+                    mostraMensaje("Auto borrado correctamente", "Info", "Borrado Existoso");
             } else {
                 mostraMensaje("No selecciono un registro para eliminar", "Error", "Error al eliminar");
             }
