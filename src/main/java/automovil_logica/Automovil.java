@@ -6,9 +6,11 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-
+//Una vez creada la unidad de persistencia le indicamos que esta clase es una entidad con @Entity
 @Entity
 public class Automovil implements Serializable {
+    // le indicamos a la unidad de persistencia cual es la id
+    // GeneratedValue lo ponemos para que se genere automatico
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
     private int id;
